@@ -1,5 +1,4 @@
-html,
-body {
+html {
   width: 100%;
   height: 100%;
   color: white;
@@ -67,7 +66,12 @@ body {
 }
 .game-over {
   background-color: red;
-  opacity: 0.8;
+  opacity: 0.5;
+  z-index: 5;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
 }
 body {
   background: linear-gradient(-45deg, black, #2a363b, #333333, #081c65);
