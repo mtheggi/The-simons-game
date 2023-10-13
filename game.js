@@ -32,6 +32,10 @@ function restartGame() {
 $(".btn").click(function (event) {
   userClickedPattern.push(event.target.id);
   playSound(event.target.id);
+  $("#" + event.target.id).addClass("pressed");
+  setTimeout(() => {
+    $("#" + event.target.id).removeClass("pressed");
+  }, 400);
   checkanswer(userClickedPattern.length - 1);
 });
 function checkanswer(currentCount) {

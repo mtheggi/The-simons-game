@@ -66,12 +66,11 @@ html {
 }
 .game-over {
   background-color: red;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 5;
 }
 .pressed {
   box-shadow: 0 0 20px white;
-  background-color: grey;
 }
 body {
   background: linear-gradient(-45deg, black, #2a363b, #333333, #081c65);
